@@ -1,0 +1,19 @@
+public enum JexlStatus {
+	ExpectOperand,
+	ExpectBinOp,
+	ExpectTransform,
+	ExpectObjKey,
+	ExpectKeyValSep,
+	PostTransform,
+	PostArgs,
+	Identifier,
+	Traverse,
+	Filter,
+	SubExpression,
+	ArgVal,
+	ObjVal,
+	ArrayVal,
+	TernaryMid,
+	TernaryEnd,
+	Complete
+}

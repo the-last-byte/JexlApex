@@ -1,0 +1,20 @@
+public enum JexlNamedMethod {
+	ArgVal,
+	ArrayStart,
+	ArrayVal,
+	BinaryOp,
+	Dot,
+	Filter,
+	FunctionCall,
+	Identifier,
+	Literal,
+	ObjectKey,
+	ObjectStart,
+	ObjectValue,
+	SubExpression,
+	TernaryEnd,
+	TernaryMid,
+	TernaryStart,
+	Transform,
+	UnaryOp
+}

@@ -1,3 +1,7 @@
+/*
+ * Ported from original Javascript by The Last Byte Consulting.
+ * Original Jexl Javascript code is Copyright 2020 Tom Shawver
+ */
 @IsTest
 private class JexlLexerTest {
 
@@ -39,11 +43,11 @@ private class JexlLexerTest {
 	static void sortByStringLengthHandler_Test() {
 
 		final List<String> unsorted = new List<String> {
-			'444',
-			'55555555',
-			'1',
+			'222',
+			'11111111',
+			'5',
 			'333',
-			'22'
+			'44'
 		};
 
 		Test.startTest();

@@ -27,6 +27,7 @@ public without sharing class JexlStates {
 			JexlGrammar.GrammarType.Identifier => new TokenType(JexlStatus.PostTransform, JexlNamedMethod.Transform)
 		}),
 		JexlStatus.ExpectObjKey => new State(new Map<JexlGrammar.GrammarType, TokenType> {
+			JexlGrammar.GrammarType.Literal => new TokenType(JexlStatus.ExpectKeyValSep, JexlNamedMethod.ObjectKey),
 			JexlGrammar.GrammarType.Identifier => new TokenType(JexlStatus.ExpectKeyValSep, JexlNamedMethod.ObjectKey),
 			JexlGrammar.GrammarType.CloseCurl => new TokenType(JexlStatus.ExpectBinOp)
 		}),

@@ -1,7 +1,7 @@
-/**
- * Created by User on 16/11/2024.
+/*
+ * Ported from original Javascript by The Last Byte Consulting.
+ * Original Jexl Javascript code is Copyright 2020 Tom Shawver
  */
-
 public with sharing class JexlLexer {
 
 	private static final String Regex_IdentifierCheck = '^[a-zA-Zа-яА-Я_\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u00FF$][a-zA-Zа-яА-Я0-9_\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u00FF$]*$';

@@ -1,3 +1,7 @@
+/*
+ * Ported from original Javascript by The Last Byte Consulting.
+ * Original Jexl Javascript code is Copyright 2020 Tom Shawver
+ */
 public without sharing class JexlNode {
 
 	public enum Type {
@@ -27,19 +31,14 @@ public without sharing class JexlNode {
 	public JexlNode alternate { get; set; }
 	//@todo What is this?
 	public JexlNode consequent { get; set; }
-	//@todo What is this?
+	//The node to test against
 	public JexlNode testNode { get; set; }
 	public Boolean relative { get; set; }
 
-	//@todo naming?
 	public Object value { get; private set; }
-	//@todo Is string? Purpose?
 	public Object name { get; private set; }
-	//@todo naming/type?
 	public List<JexlNode> args { get; private set; }
-	//@todo Consider naming?
 	public Object operator { get; private set; }
-
 	public JexlPool pool { get; private set; }
 
 	public JexlNode(JexlNode.Type type) {

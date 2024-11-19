@@ -1,3 +1,7 @@
+/*
+ * Ported from original Javascript by The Last Byte Consulting.
+ * Original Jexl Javascript code is Copyright 2020 Tom Shawver
+ */
 public without sharing class JexlStates {
 
 	public static final Map<JexlStatus, State> StatusToState = new Map<JexlStatus, State> {

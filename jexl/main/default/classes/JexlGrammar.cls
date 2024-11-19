@@ -1,6 +1,9 @@
+/*
+ * Ported from original Javascript by The Last Byte Consulting.
+ * Original Jexl Javascript code is Copyright 2020 Tom Shawver
+ */
 public without sharing class JexlGrammar {
 
-	//@todo Move me and rename me when better name is known
 	public enum GrammarType {
 		//Defined as standard grammar
 		Dot,

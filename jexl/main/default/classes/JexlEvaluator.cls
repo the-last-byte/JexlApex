@@ -1,3 +1,7 @@
+/*
+ * Ported from original Javascript by The Last Byte Consulting.
+ * Original Jexl Javascript code is Copyright 2020 Tom Shawver
+ */
 public without sharing class JexlEvaluator {
 
 	private static final Map<JexlPool, String> PoolToLabel = new Map<JexlPool, String> {
